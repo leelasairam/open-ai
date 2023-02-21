@@ -1,4 +1,3 @@
-const API_KEY = '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';
 let list = [];
 async function getResponse() {
     const prompt = document.querySelector("#inp").value;
