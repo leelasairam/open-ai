@@ -15,7 +15,7 @@ const openai = new OpenAIApi(config);
 
 const app = express()
 app.use(cors({
-    origin: ["http://localhost:5500","https://ai-speaks.netlify.app"]
+    origin: 'https://ai-speaks.netlify.app'
 }))
 app.use(express.json())
 
